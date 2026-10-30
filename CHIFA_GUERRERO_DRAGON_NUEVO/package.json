@@ -1,0 +1,15 @@
+{
+  "name": "chifa-guerrero-gestion-integral",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema local de gestión operativa para Chifa El Guerrero Dragón",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.mjs",
+    "dev": "node --watch server/server.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
